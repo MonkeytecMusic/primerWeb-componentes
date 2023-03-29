@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+    padding: 8%;
+    text-align: center;
+    background-color: #12C4F8;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.titulo{
+    font-size: 250px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.info{
+    position: relative;
+}
+
+.container:hover .titulo {
+    opacity: 0;
+}
+
+.container:hover .info{
+    display: block;
+}
